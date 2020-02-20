@@ -22,7 +22,6 @@ let getDistanceHint = function (distance) {
     } else if (distance < 500) {
         return "Very Cold";
     } else if (distance < 650) {
-        return "Very Very Cold";
     } else {
         return "Frozen!";       
     }
